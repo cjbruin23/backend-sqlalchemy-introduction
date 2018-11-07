@@ -2,12 +2,12 @@ import click
 
 from rdbms.models.database import Base
 from rdbms.models.database import engine
+from rdbms.models.users import *
 
 
 @click.group()
 def cli():
     pass
-
 
 @cli.command()
 def init():
