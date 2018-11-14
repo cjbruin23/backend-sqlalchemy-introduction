@@ -1,4 +1,4 @@
-from .posts import *
 from .users import *
-from .comments import *
-from .tags import *
+from .addresses import *
+from .accounts import *
+from .education import *
