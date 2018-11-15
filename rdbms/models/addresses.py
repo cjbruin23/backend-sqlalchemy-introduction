@@ -11,6 +11,6 @@ class Address(Base):
     state = Column(Text)
     postal_code = Column(Integer)
     country = Column(String)
-    start_date = Column(Date)
-    end_date = Column(Date)
+    start_date = Column(String)
+    end_date = Column(String)
     user_id = Column(Integer, ForeignKey('users.id'))
